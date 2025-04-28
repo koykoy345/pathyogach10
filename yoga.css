@@ -1,0 +1,153 @@
+body 
+   { background-color: #40407A;     
+     color: #40407A; 
+     font-family: Verdana, Arial, sans-serif; 
+     margin: 0; }
+
+#wrapper 
+   { background-color: #F5F5F5; 
+     padding: 2em; 
+     margin: auto;
+     width: 80%; }
+     
+          
+
+header 
+   { background-color: #40407A; 
+     color: #FFFFFF;
+     background-image: url('sunrise.jpg'); 
+     background-size: 100% 100%; 
+     min-height: 200px;
+     font-size: 120%; }   
+           
+.home
+   {
+     padding-top: 5em;
+     padding-left: 8em;
+     height: 50vh; }
+
+
+.content 
+   { height: 20vh;
+     padding-top: 2em;
+     padding-left: 10vh; }
+
+footer 
+   { font-size: small;
+     font-style: italic;
+     text-align: center; 
+     clear: right; }
+  
+nav 
+   { text-align: right;
+     font-weight: bold; 
+     background-color: white;
+     margin: 0;
+     padding-top: 0.5em;
+     padding-bottom: 1em;
+     padding-right: 0;
+     position: fixed;
+     top: 0;
+     left: 0;
+     z-index: 9999;
+     width: 100%;
+     height: auto; }
+
+nav a 
+   { text-decoration: none; }
+
+nav ul 
+   { list-style-type: none;      
+     margin: 0;                  
+     padding-right: 2em;         
+     font-size: 1.2em; 
+     justify-content: flex-end; }          
+
+nav li 
+   { display: inline;            
+     padding-left: 4em; }
+
+
+nav a:link { color: #3F2860;}
+
+nav a:visited { color: #497777;}
+
+nav a:hover, nav a:focus { color: #A26100; text-decoration: none; }    
+
+header a { text-decoration: none; color: #FFFFFF;  }
+
+header a:link { color: #FFFFFF;  }
+
+header a:visited { color: #FFFFFF; }           
+
+header a:hover, header a:focus { color: #EDF5F5; }
+
+#mathero 
+   { height: 300px;
+     background-image: url('yogamat.jpg');
+     background-size: cover; 
+     background-repeat: no-repeat; 
+     display: block; 
+     margin-bottom: 1em; }
+     
+
+#loungehero 
+   { height: 300px;
+     background-image: url('yogalounge.jpg');
+     background-size: cover; 
+     background-repeat: no-repeat; 
+     display: block; 
+     margin-bottom: 1em; }
+     
+h2 
+   { margin: 0; }
+
+
+li, dd 
+   { font-size: 90%; }
+
+#flow 
+   { display: block; 
+     flex-wrap: wrap; }   
+
+table {
+   border: 1px solid #40407A; 
+   margin-bottom: 1em;          
+   border-collapse: collapse;}
+
+td, th {
+   padding: 0.5em;            
+   border: 1px solid #40407A; }
+
+tr:nth-child(even) {
+   background-color: #D7E8E9; }
+
+caption {
+   margin: 1em;               
+   font-weight: bold;         
+   font-size: 120%; }
+
+form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap; }
+
+input, datalist, textarea 
+   { margin-bottom: 0.5em; }
+
+
+@media (min-width: 600px) {
+    form {
+        display: grid;
+        grid-template-columns: 9em 1fr;
+        gap: 1em;
+        width: 60%;
+        max-width: 40em; }
+}
+
+ input[type="submit"] 
+       {
+        grid-column: 2;
+        width: 9em;
+        margin-bottom: 0.5em; }
+
